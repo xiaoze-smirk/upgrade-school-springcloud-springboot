@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demsdf" />
+        <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demsdf" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
+        <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/main-operation" />
+        <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/main-operation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/main-school" />
+        <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/main-school" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user-operation" />
+        <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/user-operation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/zuul-server" />
+        <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/zuul-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

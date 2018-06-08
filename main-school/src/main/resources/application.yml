@@ -1,0 +1,29 @@
+server:                  #配置server
+  tomcat:       #springboot乱码解决
+    uri-encoding: UTF-8
+  port: 8095
+
+spring:
+  devtools:      #热部署
+    restart:
+      enabled: true
+  http:       #springboot乱码解决
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    mode: HTML5
+  application:
+        name: main-school
+
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+       defaultZone: http://localhost:8091/eureka/
+  instance:
+    instance-id: main-school-8095
+    prefer-ip-address: true     #访问路径可以显示IP地址
+

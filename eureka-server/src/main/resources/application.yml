@@ -1,0 +1,23 @@
+server:                  #配置server
+  tomcat:       #springboot乱码解决
+    uri-encoding: UTF-8
+  port: 8091
+
+spring:
+  devtools:      #热部署
+    restart:
+      enabled: true
+  http:       #springboot乱码解决
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

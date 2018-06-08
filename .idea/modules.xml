@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demsdf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demsdf_main.iml" group="demsdf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demsdf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demsdf_test.iml" group="demsdf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/easy-springcloud.iml" filepath="$PROJECT_DIR$/.idea/easy-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/main-operation/main-operation.iml" filepath="$PROJECT_DIR$/main-operation/main-operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_main.iml" group="main-operation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" group="main-operation" />
+      <module fileurl="file://$PROJECT_DIR$/main-school/main-school.iml" filepath="$PROJECT_DIR$/main-school/main-school.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-school_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-school_main.iml" group="main-school" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-school_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-school_test.iml" group="main-school" />
+      <module fileurl="file://$PROJECT_DIR$/user-operation/user-operation.iml" filepath="$PROJECT_DIR$/user-operation/user-operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-operation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-operation_main.iml" group="user-operation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-operation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-operation_test.iml" group="user-operation" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-server_main.iml" group="zuul-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-server_test.iml" group="zuul-server" />
+    </modules>
+  </component>
+</project>

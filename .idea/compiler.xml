@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demsdf_main" target="1.8" />
+      <module name="demsdf_test" target="1.8" />
+      <module name="eureka-server_main" target="1.8" />
+      <module name="eureka-server_test" target="1.8" />
+      <module name="main-operation_main" target="1.8" />
+      <module name="main-operation_test" target="1.8" />
+      <module name="main-school_main" target="1.8" />
+      <module name="main-school_test" target="1.8" />
+      <module name="user-operation_main" target="1.8" />
+      <module name="user-operation_test" target="1.8" />
+      <module name="zuul-server_main" target="1.8" />
+      <module name="zuul-server_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
