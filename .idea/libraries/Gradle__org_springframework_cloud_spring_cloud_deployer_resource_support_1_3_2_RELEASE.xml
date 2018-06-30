@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-deployer-resource-support:1.3.2.RELEASE">
+    <CLASSES>
+      <root url="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-deployer-resource-support/1.3.2.RELEASE/b57c192e634c13f22ce4bc0e037f1d9d8108d7bf/spring-cloud-deployer-resource-support-1.3.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-deployer-resource-support/1.3.2.RELEASE/7936761631ea59be8f744fa5aa84f5fa88319c1c/spring-cloud-deployer-resource-support-1.3.2.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

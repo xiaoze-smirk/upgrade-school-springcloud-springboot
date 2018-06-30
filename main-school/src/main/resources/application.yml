@@ -27,3 +27,17 @@ eureka:
     instance-id: main-school-8095
     prefer-ip-address: true     #访问路径可以显示IP地址
 
+feign:
+  hystrix:
+    enabled: true
+
+
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000
+

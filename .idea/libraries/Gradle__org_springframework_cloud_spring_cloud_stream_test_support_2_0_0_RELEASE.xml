@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-stream-test-support:2.0.0.RELEASE">
+    <CLASSES>
+      <root url="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-test-support/2.0.0.RELEASE/f333774fcc8c1efefb0f3f35535d6837365e5ac3/spring-cloud-stream-test-support-2.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-test-support/2.0.0.RELEASE/ecb528c38ca5af9f4a085af13318d1c13d4e9719/spring-cloud-stream-test-support-2.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

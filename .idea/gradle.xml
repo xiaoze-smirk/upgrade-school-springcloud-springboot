@@ -4,16 +4,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/demsdf" />
-        <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/demsdf" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
         <option name="gradleHome" value="E:/gradle-4.4.1-all/gradle-4.4.1" />
         <option name="modules">

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-zookeeper-core:2.0.0.RELEASE">
+    <CLASSES>
+      <root url="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-zookeeper-core/2.0.0.RELEASE/2bc9458a2fcc4fc78441046d7dde8ab0bcc28101/spring-cloud-zookeeper-core-2.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-zookeeper-core/2.0.0.RELEASE/332ec74fb12ffcdd8caa31847cc8146ed26b934c/spring-cloud-zookeeper-core-2.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

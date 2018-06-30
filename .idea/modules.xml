@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demsdf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demsdf_main.iml" group="demsdf" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demsdf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demsdf_test.iml" group="demsdf" />
       <module fileurl="file://$PROJECT_DIR$/.idea/easy-springcloud.iml" filepath="$PROJECT_DIR$/.idea/easy-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" group="eureka-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" group="eureka-server" />
-      <module fileurl="file://$PROJECT_DIR$/main-operation/main-operation.iml" filepath="$PROJECT_DIR$/main-operation/main-operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_main.iml" group="main-operation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" group="main-operation" />
       <module fileurl="file://$PROJECT_DIR$/main-school/main-school.iml" filepath="$PROJECT_DIR$/main-school/main-school.iml" />
