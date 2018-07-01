@@ -32,6 +32,18 @@ zuul:
       path: /courseType/**
       serviceId: main-operation
   host:
-    socket-timeout-millis: 100000
-    connect-timeout-millis: 10000
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 300000
 
