@@ -12,6 +12,8 @@
       <module name="demo" target="1.8" />
       <module name="demo_main" target="1.8" />
       <module name="demo_test" target="1.8" />
+      <module name="demohgj_main" target="1.8" />
+      <module name="demohgj_test" target="1.8" />
       <module name="demsdf_main" target="1.8" />
       <module name="demsdf_test" target="1.8" />
       <module name="eureka-server_main" target="1.8" />
