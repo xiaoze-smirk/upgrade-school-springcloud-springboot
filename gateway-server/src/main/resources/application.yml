@@ -38,7 +38,7 @@ eureka:
     service-url:
        defaultZone: http://localhost:8091/eureka/
   instance:
-    instance-id: gateway-server-8096
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}:gateway-server
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 ribbon:

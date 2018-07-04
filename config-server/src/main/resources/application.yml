@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8097
 
 spring:
   application:
@@ -15,3 +15,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8091/eureka/
+  instance:
+      instance-id: ${spring.cloud.client.ip-address}:${server.port}:config-server
+      prefer-ip-address: true     #访问路径可以显示IP地址
