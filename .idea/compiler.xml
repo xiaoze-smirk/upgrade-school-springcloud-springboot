@@ -9,6 +9,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server_main" target="1.8" />
+      <module name="config-server_test" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo_main" target="1.8" />
       <module name="demo_test" target="1.8" />
@@ -18,6 +20,8 @@
       <module name="demsdf_test" target="1.8" />
       <module name="eureka-server_main" target="1.8" />
       <module name="eureka-server_test" target="1.8" />
+      <module name="gateway-server_main" target="1.8" />
+      <module name="gateway-server_test" target="1.8" />
       <module name="main-operation_main" target="1.8" />
       <module name="main-operation_test" target="1.8" />
       <module name="main-school_main" target="1.8" />

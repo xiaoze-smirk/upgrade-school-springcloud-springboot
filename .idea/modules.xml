@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server_main.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server_test.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/easy-springcloud.iml" filepath="$PROJECT_DIR$/.idea/easy-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" group="eureka-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server_main.iml" group="gateway-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server_test.iml" group="gateway-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_main.iml" group="main-operation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" group="main-operation" />
@@ -15,9 +21,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-operation.iml" filepath="$PROJECT_DIR$/.idea/modules/user-operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-operation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-operation_main.iml" group="user-operation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-operation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-operation_test.iml" group="user-operation" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-server.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-server_main.iml" group="zuul-server" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-server_test.iml" group="zuul-server" />
     </modules>
   </component>
 </project>

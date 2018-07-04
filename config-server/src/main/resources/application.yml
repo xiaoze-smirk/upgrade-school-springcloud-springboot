@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:  #http://localhost:8888/user-operation/dev
+      server:
+        git:
+          uri: https://gitee.com/smirk/springcloud-configuration
+          searchPaths: springcloud-repo
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8091/eureka/

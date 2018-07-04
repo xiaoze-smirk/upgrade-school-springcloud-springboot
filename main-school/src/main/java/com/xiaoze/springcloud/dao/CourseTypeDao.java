@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
  * @date 2018/6/3
  *
  */
-@FeignClient(name="zuul-server")
+@FeignClient(name="gateway-server")
 public interface CourseTypeDao {
 
     /**

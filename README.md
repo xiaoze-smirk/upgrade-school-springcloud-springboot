@@ -27,14 +27,14 @@ dependencyManagement {
 
 2.将sql文件夹里面的脚步导入到mysql中，使得数据库里面有数据。
 
-3.项目启动顺序：eureka-server → zuul-server → user-operation → main-operation → main-school
+3.项目启动顺序：eureka-server → gateway-server → user-operation → main-operation → main-school
 
 4.打开浏览器，输入网址[http://localhost:8095](http://localhost:8095)即可浏览（账号：000101  密码：123456）。
 
 ## 四、总结
-整合Springcloud确实有点困难，各个模块粒度太小了，每个地方都需要认真配置，做了挺久的，但是这都是进步的表现，加油！Give Me Five！
+这个Springcloud项目我会有空的时候就升级，加油！Give Me Five！
 
 ------
 
 smirk小泽   
-2018 年 07月02日    
+2018 年 07月04日    
