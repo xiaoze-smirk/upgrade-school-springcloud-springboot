@@ -27,7 +27,7 @@ dependencyManagement {
 
 2.将sql文件夹里面的脚步导入到mysql中，使得数据库里面有数据。
 
-3.项目启动顺序：eureka-server → gateway-server → user-operation → main-operation → main-school
+3.项目启动顺序：eureka-server → gateway-server → config-server → user-operation → main-operation → main-school
 
 4.打开浏览器，输入网址[http://localhost:8095](http://localhost:8095)即可浏览（账号：000101  密码：123456）。
 

@@ -8,9 +8,4 @@ spring:
     restart:
       enabled: true
 
-eureka:
-  instance:
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}:main-operation
-    prefer-ip-address: true     #访问路径可以显示IP地址
-
 

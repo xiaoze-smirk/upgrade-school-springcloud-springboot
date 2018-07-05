@@ -17,7 +17,7 @@ eureka:
   instance:
     hostname: localhost
   client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
