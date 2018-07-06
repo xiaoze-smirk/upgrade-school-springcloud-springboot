@@ -1,0 +1,6 @@
+server:
+  port: 8098
+
+spring:
+  application:
+    name: hystrix-dashboard  #http://localhost:8098/hystrix

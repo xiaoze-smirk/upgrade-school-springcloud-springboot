@@ -1,0 +1,11 @@
+Eureka界面网址：
+http://localhost:8091/
+
+项目主页面网址：
+http://localhost:8095/
+
+hystrix监控界面网址：
+http://localhost:8098/hystrix
+
+项目中有用到断路器网址：
+http://localhost:8095/hystrix.stream

@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server_main.iml" group="gateway-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server_test.iml" group="gateway-server" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrix-dashboard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrix-dashboard_main.iml" group="hystrix-dashboard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrix-dashboard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrix-dashboard_test.iml" group="hystrix-dashboard" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_main.iml" group="main-operation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-operation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" group="main-operation" />

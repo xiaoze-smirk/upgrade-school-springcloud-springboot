@@ -35,6 +35,16 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+        <option name="gradleHome" value="D:/gradle-4.8.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/hystrix-dashboard" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/main-operation" />
         <option name="gradleHome" value="D:/gradle-4.8.1" />
         <option name="gradleJvm" value="1.8" />

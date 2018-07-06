@@ -2,16 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc8b6999-733a-4873-b900-a7130dbc86f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_jquery_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hystrix-dashboard_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hystrix-dashboard_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/项目地址.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/xiaoze/springcloud/HystrixDashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/test/java/com/xiaoze/springcloud/HystrixDashboardApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/HystrixConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/config-server_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/config-server_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gateway-server_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gateway-server_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/main-school_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/main-school_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/user-operation_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/user-operation_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-operation/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-operation/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-school/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-operation/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-operation/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/java/com/xiaoze/springcloud/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/xiaoze/springcloud/GatewayServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/WebLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/db.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/.gradle/" />
     <ignored path="$PROJECT_DIR$/eureka-server/build/" />
@@ -44,6 +67,9 @@
     <ignored path="$PROJECT_DIR$/gateway-server/.gradle/" />
     <ignored path="$PROJECT_DIR$/gateway-server/build/" />
     <ignored path="$PROJECT_DIR$/gateway-server/out/" />
+    <ignored path="$PROJECT_DIR$/hystrix-dashboard/.gradle/" />
+    <ignored path="$PROJECT_DIR$/hystrix-dashboard/build/" />
+    <ignored path="$PROJECT_DIR$/hystrix-dashboard/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +97,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/gateway-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hystrix-dashboard">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/main-operation">
@@ -110,9 +139,43 @@
         <task path="$PROJECT_DIR$/config-server">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/hystrix-dashboard">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eureka-server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eureka-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eureka-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="main-school" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="main-school" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="main-school" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -122,37 +185,81 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-school/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainOperationApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/start/MainOperationApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainSchoolApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/start/MainSchoolApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-school/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1029">
+              <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-dashboard/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixDashboardApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/xiaoze/springcloud/HystrixDashboardApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/HystrixConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="项目地址.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/项目地址.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="db.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/db.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -160,47 +267,8 @@
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="321">
-                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-operation/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+            <state relative-caret-position="189">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -223,6 +291,7 @@
         <entry key="$PROJECT_DIR$/config-server" value="D:\gradle-4.8.1" />
         <entry key="$PROJECT_DIR$/eureka-server" value="D:\gradle-4.8.1" />
         <entry key="$PROJECT_DIR$/gateway-server" value="D:\gradle-4.8.1" />
+        <entry key="$PROJECT_DIR$/hystrix-dashboard" value="D:\gradle-4.8.1" />
         <entry key="$PROJECT_DIR$/main-operation" value="D:\gradle-4.8.1" />
         <entry key="$PROJECT_DIR$/main-school" value="D:\gradle-4.8.1" />
         <entry key="$PROJECT_DIR$/user-operation" value="D:\gradle-4.8.1" />
@@ -233,6 +302,7 @@
         <entry key="$PROJECT_DIR$/config-server" value="4.8.1" />
         <entry key="$PROJECT_DIR$/eureka-server" value="4.8.1" />
         <entry key="$PROJECT_DIR$/gateway-server" value="4.8.1" />
+        <entry key="$PROJECT_DIR$/hystrix-dashboard" value="4.8.1" />
         <entry key="$PROJECT_DIR$/main-operation" value="4.8.1" />
         <entry key="$PROJECT_DIR$/main-school" value="4.8.1" />
         <entry key="$PROJECT_DIR$/user-operation" value="4.8.1" />
@@ -284,6 +354,22 @@
               <ExternalProjectPojo>
                 <option name="name" value="gateway-server" />
                 <option name="path" value="$PROJECT_DIR$/gateway-server" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hystrix-dashboard" />
+              <option name="path" value="$PROJECT_DIR$/hystrix-dashboard" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="hystrix-dashboard" />
+                <option name="path" value="$PROJECT_DIR$/hystrix-dashboard" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -919,6 +1005,199 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/hystrix-dashboard">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'hystrix-dashboard'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'hystrix-dashboard'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'hystrix-dashboard'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/main-operation">
           <value>
             <list>
@@ -1522,6 +1801,10 @@
         <entry key="$PROJECT_DIR$/gateway-server/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/gateway-server/build.gradle" value="3750417591" />
         <entry key="$PROJECT_DIR$/gateway-server/settings.gradle" value="1708226639" />
+        <entry key="$PROJECT_DIR$/hystrix-dashboard" value="4592413541589" />
+        <entry key="$PROJECT_DIR$/hystrix-dashboard/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/hystrix-dashboard/build.gradle" value="3747705820" />
+        <entry key="$PROJECT_DIR$/hystrix-dashboard/settings.gradle" value="2078265868" />
         <entry key="$PROJECT_DIR$/main-operation" value="4591709133808" />
         <entry key="$PROJECT_DIR$/main-operation/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/main-operation/build.gradle" value="3914262822" />
@@ -2084,6 +2367,187 @@
             </ExternalProjectBuildClasspathPojo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/hystrix-dashboard">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/hystrix-dashboard">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.3.RELEASE/27c8cd6132784dd83e8c84ad14b603a08ed317e2/spring-boot-gradle-plugin-2.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.3.RELEASE/25d1d37146bce7cc585425f635601a2ba00c0200/spring-boot-loader-tools-2.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.7.RELEASE/54b731178d81e66eca9623df772ff32718208137/spring-core-5.0.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.7.RELEASE/699016ddf454c2c167d9f84ae5777eccadf54728/spring-jcl-5.0.7.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/hystrix-dashboard" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="hystrix-dashboard" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/gradle-4.8.1/src/announce" />
+                  <option value="D:/gradle-4.8.1/src/antlr" />
+                  <option value="D:/gradle-4.8.1/src/base-services" />
+                  <option value="D:/gradle-4.8.1/src/base-services-groovy" />
+                  <option value="D:/gradle-4.8.1/src/build-cache" />
+                  <option value="D:/gradle-4.8.1/src/build-cache-http" />
+                  <option value="D:/gradle-4.8.1/src/build-comparison" />
+                  <option value="D:/gradle-4.8.1/src/build-init" />
+                  <option value="D:/gradle-4.8.1/src/build-option" />
+                  <option value="D:/gradle-4.8.1/src/cli" />
+                  <option value="D:/gradle-4.8.1/src/code-quality" />
+                  <option value="D:/gradle-4.8.1/src/composite-builds" />
+                  <option value="D:/gradle-4.8.1/src/core" />
+                  <option value="D:/gradle-4.8.1/src/core-api" />
+                  <option value="D:/gradle-4.8.1/src/dependency-management" />
+                  <option value="D:/gradle-4.8.1/src/diagnostics" />
+                  <option value="D:/gradle-4.8.1/src/ear" />
+                  <option value="D:/gradle-4.8.1/src/ide" />
+                  <option value="D:/gradle-4.8.1/src/ide-native" />
+                  <option value="D:/gradle-4.8.1/src/ide-play" />
+                  <option value="D:/gradle-4.8.1/src/installation-beacon" />
+                  <option value="D:/gradle-4.8.1/src/internal-android-performance-testing" />
+                  <option value="D:/gradle-4.8.1/src/internal-integ-testing" />
+                  <option value="D:/gradle-4.8.1/src/internal-performance-testing" />
+                  <option value="D:/gradle-4.8.1/src/internal-testing" />
+                  <option value="D:/gradle-4.8.1/src/ivy" />
+                  <option value="D:/gradle-4.8.1/src/jacoco" />
+                  <option value="D:/gradle-4.8.1/src/javascript" />
+                  <option value="D:/gradle-4.8.1/src/jvm-services" />
+                  <option value="D:/gradle-4.8.1/src/language-groovy" />
+                  <option value="D:/gradle-4.8.1/src/language-java" />
+                  <option value="D:/gradle-4.8.1/src/language-jvm" />
+                  <option value="D:/gradle-4.8.1/src/language-native" />
+                  <option value="D:/gradle-4.8.1/src/language-scala" />
+                  <option value="D:/gradle-4.8.1/src/launcher" />
+                  <option value="D:/gradle-4.8.1/src/logging" />
+                  <option value="D:/gradle-4.8.1/src/maven" />
+                  <option value="D:/gradle-4.8.1/src/messaging" />
+                  <option value="D:/gradle-4.8.1/src/model-core" />
+                  <option value="D:/gradle-4.8.1/src/model-groovy" />
+                  <option value="D:/gradle-4.8.1/src/native" />
+                  <option value="D:/gradle-4.8.1/src/osgi" />
+                  <option value="D:/gradle-4.8.1/src/persistent-cache" />
+                  <option value="D:/gradle-4.8.1/src/platform-base" />
+                  <option value="D:/gradle-4.8.1/src/platform-jvm" />
+                  <option value="D:/gradle-4.8.1/src/platform-native" />
+                  <option value="D:/gradle-4.8.1/src/platform-play" />
+                  <option value="D:/gradle-4.8.1/src/plugin-development" />
+                  <option value="D:/gradle-4.8.1/src/plugin-use" />
+                  <option value="D:/gradle-4.8.1/src/plugins" />
+                  <option value="D:/gradle-4.8.1/src/process-services" />
+                  <option value="D:/gradle-4.8.1/src/publish" />
+                  <option value="D:/gradle-4.8.1/src/reporting" />
+                  <option value="D:/gradle-4.8.1/src/resources" />
+                  <option value="D:/gradle-4.8.1/src/resources-gcs" />
+                  <option value="D:/gradle-4.8.1/src/resources-http" />
+                  <option value="D:/gradle-4.8.1/src/resources-s3" />
+                  <option value="D:/gradle-4.8.1/src/resources-sftp" />
+                  <option value="D:/gradle-4.8.1/src/scala" />
+                  <option value="D:/gradle-4.8.1/src/signing" />
+                  <option value="D:/gradle-4.8.1/src/test-kit" />
+                  <option value="D:/gradle-4.8.1/src/testing-base" />
+                  <option value="D:/gradle-4.8.1/src/testing-junit-platform" />
+                  <option value="D:/gradle-4.8.1/src/testing-jvm" />
+                  <option value="D:/gradle-4.8.1/src/testing-native" />
+                  <option value="D:/gradle-4.8.1/src/tooling-api" />
+                  <option value="D:/gradle-4.8.1/src/tooling-api-builders" />
+                  <option value="D:/gradle-4.8.1/src/version-control" />
+                  <option value="D:/gradle-4.8.1/src/workers" />
+                  <option value="D:/gradle-4.8.1/src/wrapper" />
+                  <option value="D:/gradle-4.8.1/lib/ant-1.9.11.jar" />
+                  <option value="D:/gradle-4.8.1/lib/ant-launcher-1.9.11.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-base-services-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-base-services-groovy-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-build-cache-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-build-option-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-cli-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-core-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-core-api-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-docs-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-installation-beacon-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-jvm-services-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-kotlin-dsl-0.17.5.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-kotlin-dsl-provider-plugins-0.17.5.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-kotlin-dsl-provider-spi-0.17.5.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-kotlin-dsl-tooling-builders-0.17.5.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-kotlin-dsl-tooling-models-0.17.5.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-launcher-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-logging-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-messaging-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-model-core-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-model-groovy-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-native-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-persistent-cache-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-process-services-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-resources-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-runtime-api-info-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-tooling-api-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/gradle-wrapper-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/groovy-all-2.4.12.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-announce-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-antlr-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-build-cache-http-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-build-comparison-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-build-init-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-code-quality-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-composite-builds-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-dependency-management-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-diagnostics-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-ear-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-ide-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-ide-native-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-ide-play-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-ivy-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-jacoco-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-javascript-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-language-groovy-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-language-java-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-language-jvm-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-language-native-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-language-scala-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-maven-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-osgi-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-platform-base-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-platform-jvm-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-platform-native-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-platform-play-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-plugin-development-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-plugin-use-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-plugins-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-publish-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-reporting-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-resources-gcs-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-resources-http-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-resources-s3-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-resources-sftp-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-scala-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-signing-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-test-kit-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-testing-base-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-testing-junit-platform-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-testing-jvm-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-testing-native-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-tooling-api-builders-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-version-control-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/gradle-workers-4.8.1.jar" />
+                  <option value="D:/gradle-4.8.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/hystrix-dashboard/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/hystrix-dashboard/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/main-operation">
           <value>
             <ExternalProjectBuildClasspathPojo>
@@ -2637,9 +3101,10 @@
         <entry key="$PROJECT_DIR$/config-server" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/eureka-server" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/gateway-server" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/hystrix-dashboard" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/main-operation" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/main-school" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$/user-operation" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/user-operation" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../school-springcloud/school-config-client" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../school-springcloud/school-config-server" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../school-springcloud/school-eureka-server" value="PREVIEW" />
@@ -2653,10 +3118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/service/CourseTypeService.java" />
-        <option value="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/service/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/main-operation/src/main/resources/mybatis/CourseMapper.xml" />
-        <option value="$PROJECT_DIR$/main-operation/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/rabbitmq/receiver/CourseTypeProvider.java" />
         <option value="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/service/impl/CourseTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/entity/PageInfo.java" />
@@ -2691,7 +3152,6 @@
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/xiaoze/springcloud/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/user-operation/src/main/java/com/xiaoze/springcloud/start/UserOperationApplication.java" />
         <option value="$PROJECT_DIR$/user-operation/build.gradle" />
-        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/xiaoze/springcloud/GatewayServerApplication.java" />
         <option value="$PROJECT_DIR$/gateway-server/build.gradle" />
         <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/dao/CourseTypeDao.java" />
         <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/dao/UserDao.java" />
@@ -2704,6 +3164,11 @@
         <option value="$PROJECT_DIR$/main-school/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/user-operation/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/build.gradle" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/xiaoze/springcloud/HystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/xiaoze/springcloud/GatewayServerApplication.java" />
+        <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/HystrixConfig.java" />
       </list>
     </option>
   </component>
@@ -2735,8 +3200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2744,11 +3207,73 @@
               <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix-dashboard" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="main-school" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="main-school" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="main-school" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="main-school" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="main-school" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="main-school" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="main-school" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2758,13 +3283,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -2791,7 +3316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.user-operation [build]">
+  <component name="RunManager" selected="Gradle.main-school [build]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -2832,10 +3357,10 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="main-operation [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hystrix-dashboard [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/main-operation" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hystrix-dashboard" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -2911,6 +3436,10 @@
       <module name="gateway-server_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaoze.springcloud.GatewayServerApplication" />
     </configuration>
+    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix-dashboard_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaoze.springcloud.HystrixDashboardApplication" />
+    </configuration>
     <configuration name="MainOperationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="main-operation_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaoze.springcloud.start.MainOperationApplication" />
@@ -2952,19 +3481,20 @@
       <item itemvalue="Spring Boot.MainSchoolApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.GatewayServerApplication" />
-      <item itemvalue="Gradle.main-operation [build]" />
+      <item itemvalue="Spring Boot.HystrixDashboardApplication" />
       <item itemvalue="Gradle.main-school [build]" />
       <item itemvalue="Gradle.user-operation [build]" />
       <item itemvalue="Gradle.eureka-server [build]" />
       <item itemvalue="Gradle.gateway-server [build]" />
+      <item itemvalue="Gradle.hystrix-dashboard [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.hystrix-dashboard [build]" />
         <item itemvalue="Gradle.gateway-server [build]" />
         <item itemvalue="Gradle.eureka-server [build]" />
         <item itemvalue="Gradle.user-operation [build]" />
         <item itemvalue="Gradle.main-school [build]" />
-        <item itemvalue="Gradle.main-operation [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -3004,42 +3534,52 @@
       <workItem from="1530667871538" duration="11918000" />
       <workItem from="1530685338760" duration="4878000" />
       <workItem from="1530693738041" duration="5602000" />
-      <workItem from="1530752850577" duration="11188000" />
+      <workItem from="1530752850577" duration="11291000" />
+      <workItem from="1530769356675" duration="36000" />
+      <workItem from="1530782484391" duration="2578000" />
+      <workItem from="1530840244347" duration="203000" />
+      <workItem from="1530846695469" duration="658000" />
+      <workItem from="1530847429524" duration="418000" />
+      <workItem from="1530847879833" duration="176000" />
+      <workItem from="1530848083745" duration="156000" />
+      <workItem from="1530854597133" duration="53000" />
+      <workItem from="1530857340460" duration="348000" />
+      <workItem from="1530858443144" duration="1636000" />
+      <workItem from="1530860132094" duration="122000" />
+      <workItem from="1530860649640" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131922000" />
+    <option name="totallyTimeSpent" value="138409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50053304" side_tool="true" weight="0.304253" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50053304" side_tool="true" weight="0.30407524" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49946696" weight="0.30407524" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3322884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23824452" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24200426" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -3051,6 +3591,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24962178" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49946696" weight="0.15049073" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -3102,26 +3644,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-openfeign-core/2.0.0.RELEASE/ed9b9ee4a2241468ebb19526111f3af778dcf96/spring-cloud-openfeign-core-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsConfiguration.java" />
-    <entry file="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.12/b3ad4bd44c8f77df4615ea7750aa42d22ec755ed/hystrix-core-1.5.12-sources.jar!/com/netflix/hystrix/HystrixCommandProperties.java" />
-    <entry file="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/io.github.openfeign/feign-core/9.5.1/faa6c7350a9179add7f0ab3e99cc88300528abe6/feign-core-9.5.1-sources.jar!/feign/Feign.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties" />
-    <entry file="jar://E:/gradle-4.4.1-all/gradle-4.4.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.0.RELEASE/5faa3c26d2a2d23c3767680accba5717edbe3dc3/spring-cloud-netflix-zuul-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/support/AbstractRibbonCommand.java" />
-    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/SybnHystrixFeignConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/WebLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/start/MainSchoolApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-operation/src/main/java/com/xiaoze/springcloud/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -3130,13 +3652,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demohgj/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/sql/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/config/WebLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -3201,13 +3716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-school/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/entity/CourseType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -3249,13 +3757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/xiaoze/springcloud/GatewayServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -3332,7 +3833,7 @@
     <entry file="file://$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/start/MainOperationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -3340,59 +3841,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="778" column="16" selection-start-line="778" selection-start-column="16" selection-end-line="778" selection-end-column="16" />
-          <folding>
-            <element signature="e#23250#23251#0" expanded="true" />
-            <element signature="e#23301#23302#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-school/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-operation/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="420">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -3403,6 +3879,101 @@
             <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-operation/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/xiaoze/springcloud/GatewayServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-school/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-dashboard/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/WebLogAspect.java" />
+    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/start/MainSchoolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/HystrixConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/项目地址.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/xiaoze/springcloud/HystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -3446,7 +4017,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -3463,7 +4034,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

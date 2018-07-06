@@ -22,6 +22,8 @@
       <module name="eureka-server_test" target="1.8" />
       <module name="gateway-server_main" target="1.8" />
       <module name="gateway-server_test" target="1.8" />
+      <module name="hystrix-dashboard_main" target="1.8" />
+      <module name="hystrix-dashboard_test" target="1.8" />
       <module name="main-operation_main" target="1.8" />
       <module name="main-operation_test" target="1.8" />
       <module name="main-school_main" target="1.8" />
