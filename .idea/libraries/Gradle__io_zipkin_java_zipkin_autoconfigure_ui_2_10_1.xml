@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.zipkin.java:zipkin-autoconfigure-ui:2.10.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.java/zipkin-autoconfigure-ui/2.10.1/6f6c3e70c01b8eb2caf583b33fef39ed99828654/zipkin-autoconfigure-ui-2.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.java/zipkin-autoconfigure-ui/2.10.1/87a227024e451bf059a2c3d9ae6300f96cf54f0a/zipkin-autoconfigure-ui-2.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

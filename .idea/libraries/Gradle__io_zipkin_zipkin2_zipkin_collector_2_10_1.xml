@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.zipkin.zipkin2:zipkin-collector:2.10.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.zipkin2/zipkin-collector/2.10.1/a7dd022f690e7294269460f3729dc09f6cb8dc9f/zipkin-collector-2.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.zipkin2/zipkin-collector/2.10.1/aa16150c35a22c940eb0a04213f677f5b276f573/zipkin-collector-2.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

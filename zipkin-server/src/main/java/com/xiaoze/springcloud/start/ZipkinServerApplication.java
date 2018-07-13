@@ -1,14 +1,17 @@
-package com.xiaoze.springcloud;
+package com.xiaoze.springcloud.start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import zipkin.server.internal.EnableZipkinServer;
 
-@EnableEurekaClient
+
 @SpringBootApplication
-public class GatewayServerApplication {
+@EnableEurekaClient
+@EnableZipkinServer
+public class ZipkinServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayServerApplication.class, args);
+        SpringApplication.run(ZipkinServerApplication.class, args);
     }
 }

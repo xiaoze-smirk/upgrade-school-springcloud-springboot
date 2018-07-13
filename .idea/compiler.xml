@@ -30,6 +30,8 @@
       <module name="main-school_test" target="1.8" />
       <module name="user-operation_main" target="1.8" />
       <module name="user-operation_test" target="1.8" />
+      <module name="zipkin-server_main" target="1.8" />
+      <module name="zipkin-server_test" target="1.8" />
       <module name="zuul-server_main" target="1.8" />
       <module name="zuul-server_test" target="1.8" />
     </bytecodeTargetLevel>

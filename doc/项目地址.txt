@@ -9,3 +9,6 @@ http://localhost:8098/hystrix
 
 项目中有用到断路器网址：
 http://localhost:8095/hystrix.stream
+
+zipkin中心:
+http://localhost:8099/zipkin/
