@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc8b6999-733a-4873-b900-a7130dbc86f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/config-server_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/config-server_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/config-server_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/config-server_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/main-operation_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/main-operation_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/main-operation_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/项目地址.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/项目地址.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-operation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/main-operation/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/controller/CourseTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/controller/CourseTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-operation/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-operation/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/.gradle/" />
     <ignored path="$PROJECT_DIR$/eureka-server/build/" />
@@ -123,7 +133,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="main-operation" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="main-operation" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="main-operation" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -132,88 +158,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="项目地址.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/项目地址.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-school/build.gradle">
+        <entry file="file://$PROJECT_DIR$/config-server/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZuulServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/xiaoze/springcloud/start/ZuulServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zuul-server/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="756">
+              <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="567">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-operation/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseTypeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/controller/CourseTypeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1218">
+              <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseTypeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/CourseTypeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseTypeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/impl/CourseTypeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseTypeDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/dao/CourseTypeDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -226,6 +229,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ConditionEvaluationDeltaLoggingListener</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1937,9 +1948,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/config-server" value="4591900931391" />
+        <entry key="$PROJECT_DIR$/config-server" value="4593028959130" />
         <entry key="$PROJECT_DIR$/config-server/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/config-server/build.gradle" value="4144940293" />
+        <entry key="$PROJECT_DIR$/config-server/build.gradle" value="168509548" />
         <entry key="$PROJECT_DIR$/config-server/settings.gradle" value="2457386990" />
         <entry key="$PROJECT_DIR$/demo/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/demo/build.gradle" value="359594998" />
@@ -1961,9 +1972,9 @@
         <entry key="$PROJECT_DIR$/hystrix-dashboard/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/hystrix-dashboard/build.gradle" value="3747705820" />
         <entry key="$PROJECT_DIR$/hystrix-dashboard/settings.gradle" value="2078265868" />
-        <entry key="$PROJECT_DIR$/main-operation" value="4591709133808" />
+        <entry key="$PROJECT_DIR$/main-operation" value="4592749727064" />
         <entry key="$PROJECT_DIR$/main-operation/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/main-operation/build.gradle" value="3914262822" />
+        <entry key="$PROJECT_DIR$/main-operation/build.gradle" value="2564821074" />
         <entry key="$PROJECT_DIR$/main-operation/settings.gradle" value="56139427" />
         <entry key="$PROJECT_DIR$/main-school" value="4592721852123" />
         <entry key="$PROJECT_DIR$/main-school/.gradle" value="0" />
@@ -3446,7 +3457,7 @@
         <entry key="$PROJECT_DIR$/main-operation" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/main-school" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/user-operation" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$/zuul-server" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/zuul-server" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../school-springcloud/school-config-client" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../school-springcloud/school-config-server" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../school-springcloud/school-eureka-server" value="PREVIEW" />
@@ -3474,7 +3485,6 @@
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/xiaoze/springcloud/start/ZuulServerApplication.java" />
         <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/start/MainSchoolApplication.java" />
         <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/impl/CourseTypeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/controller/CourseTypeController.java" />
         <option value="$PROJECT_DIR$/demsdf/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/demo/build.gradle" />
         <option value="$PROJECT_DIR$/zuul-server/build.gradle" />
@@ -3482,16 +3492,11 @@
         <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/config/SybnHystrixFeignConfiguration.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-server/build.gradle" />
-        <option value="$PROJECT_DIR$/config-server/build.gradle" />
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/xiaoze/springcloud/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/user-operation/src/main/java/com/xiaoze/springcloud/start/UserOperationApplication.java" />
         <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/dao/CourseTypeDao.java" />
         <option value="$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/main-operation/build.gradle" />
-        <option value="$PROJECT_DIR$/main-operation/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/build.gradle" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" />
@@ -3504,13 +3509,19 @@
         <option value="$PROJECT_DIR$/zipkin-server/build.gradle" />
         <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/xiaoze/springcloud/start/ZipkinServerApplication.java" />
         <option value="$PROJECT_DIR$/gateway-server/build.gradle" />
-        <option value="$PROJECT_DIR$/doc/项目地址.txt" />
         <option value="$PROJECT_DIR$/zipkin-server/zipkin-server使用注意.txt" />
         <option value="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/main-school/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/main-school/build.gradle" />
         <option value="$PROJECT_DIR$/user-operation/build.gradle" />
         <option value="$PROJECT_DIR$/user-operation/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-server/build.gradle" />
+        <option value="$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/controller/CourseTypeController.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/main-operation/build.gradle" />
+        <option value="$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/main-operation/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/doc/项目地址.txt" />
       </list>
     </option>
   </component>
@@ -3529,7 +3540,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="width" value="1370" />
     <option name="height" value="744" />
@@ -3542,8 +3553,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3554,19 +3566,38 @@
             <path>
               <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="config-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="config-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-springcloud-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-springcloud-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3576,13 +3607,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul-server/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -3609,12 +3640,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserOperationApplication">
+  <component name="RunManager" selected="Spring Boot.MainOperationApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="config-server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config-server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="main-operation [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/main-operation" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration name="main-school [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -3650,23 +3715,6 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="zipkin-server [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/zipkin-server" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
     <configuration name="zipkin-server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -3679,23 +3727,6 @@
         <option name="taskNames">
           <list>
             <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="zipkin-server [tasks]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/zipkin-server" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="tasks" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -3779,20 +3810,20 @@
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.GatewayServerApplication" />
       <item itemvalue="Spring Boot.HystrixDashboardApplication" />
-      <item itemvalue="Gradle.zipkin-server [assemble]" />
-      <item itemvalue="Gradle.zipkin-server [tasks]" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
       <item itemvalue="Gradle.zipkin-server [build]" />
       <item itemvalue="Gradle.main-school [build]" />
       <item itemvalue="Gradle.user-operation [build]" />
-      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Gradle.config-server [build]" />
+      <item itemvalue="Gradle.main-operation [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.main-operation [build]" />
+        <item itemvalue="Gradle.config-server [build]" />
         <item itemvalue="Gradle.user-operation [build]" />
         <item itemvalue="Gradle.main-school [build]" />
         <item itemvalue="Gradle.zipkin-server [build]" />
-        <item itemvalue="Gradle.zipkin-server [tasks]" />
-        <item itemvalue="Gradle.zipkin-server [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -3854,12 +3885,16 @@
       <workItem from="1531476539084" duration="165000" />
       <workItem from="1531476734582" duration="14000" />
       <workItem from="1531703502948" duration="5660000" />
-      <workItem from="1531712016778" duration="901000" />
+      <workItem from="1531712016778" duration="1676000" />
+      <workItem from="1531731015122" duration="1681000" />
+      <workItem from="1531732705759" duration="8000" />
+      <workItem from="1531732958956" duration="3297000" />
+      <workItem from="1531736600698" duration="650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154932000" />
+    <option name="totallyTimeSpent" value="161343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -3880,16 +3915,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.568157" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42529988" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29051173" />
       <window_info anchor="bottom" id="Problems" order="16" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28091684" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -3898,9 +3934,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24962178" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -3952,48 +3987,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/jdk/jdk-8u171/src.zip!/java/net/URI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="463" column="19" selection-start-line="463" selection-start-column="19" selection-end-line="463" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-gateway-core/2.0.0.RELEASE/f792b05fdad0175d09c16b72dad7a7d4821b504d/spring-cloud-gateway-core-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/route/RouteDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-gateway-core/2.0.0.RELEASE/f792b05fdad0175d09c16b72dad7a7d4821b504d/spring-cloud-gateway-core-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/GatewayProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-operation/src/main/java/com/xiaoze/springcloud/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-operation/src/main/java/com/xiaoze/springcloud/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-operation/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-operation/src/main/java/com/xiaoze/springcloud/controller/SecurityController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -4022,20 +4015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="65" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/start/MainOperationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/753bb954df497207e5209167eefd51ba341a0fcc/spring-cloud-netflix-eureka-client-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -4043,41 +4022,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="321">
-            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -4205,27 +4153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/CourseTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/impl/CourseTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -4240,22 +4167,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/项目地址.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-school/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/xiaoze/springcloud/start/ZuulServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -4273,8 +4190,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="840">
+          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/xiaoze/springcloud/start/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/CourseTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/impl/CourseTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-school/src/main/java/com/xiaoze/springcloud/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="284">
+            <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.0.3.RELEASE/f3e3392c3e8e2714fc05bbf0f3ee496ad19eedc7/spring-boot-actuator-autoconfigure-2.0.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/controller/CourseTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-operation/src/main/java/com/xiaoze/springcloud/start/MainOperationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.3.RELEASE/d6cd988d6d62985cf9ac80954d9bdd5f3810160d/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-operation/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-bus/2.0.0.RELEASE/7bd6647f17d4166fa9fbbb98648750325f97b913/spring-cloud-bus-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/bus/BusAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/项目说明.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-operation/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/项目地址.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>

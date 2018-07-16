@@ -7,6 +7,13 @@ spring:
         enabled: true
         serviceId: config-server  #跳转项目的名字
 
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+
 eureka:
   client: #客户端注册进eureka服务列表内
     serviceUrl:

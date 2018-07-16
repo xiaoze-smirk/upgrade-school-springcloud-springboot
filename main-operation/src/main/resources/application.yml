@@ -7,5 +7,13 @@ spring:
   devtools:      #热部署
     restart:
       enabled: true
+      log-condition-evaluation-delta: false  #是否在重新启动时记录条件评估增量。
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+
 
 

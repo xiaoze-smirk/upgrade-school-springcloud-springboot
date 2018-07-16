@@ -36,6 +36,10 @@ dependencies {
 
     compile('org.springframework.cloud:spring-cloud-config-client')
 
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+
+    compile('org.springframework.cloud:spring-cloud-starter-bus-amqp')
+
     compile ('org.springframework.boot:spring-boot-devtools')
 
     compile ('org.springframework.boot:spring-boot-starter-aop')

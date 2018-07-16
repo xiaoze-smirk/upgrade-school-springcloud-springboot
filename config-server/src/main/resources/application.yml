@@ -10,6 +10,11 @@ spring:
         git:
           uri: https://gitee.com/smirk/springcloud-configuration
           searchPaths: springcloud-repo
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
 
 eureka:
   client:
@@ -17,4 +22,11 @@ eureka:
       defaultZone: http://localhost:8091/eureka/
   instance:
       instanceId: ${spring.cloud.client.ip-address}:${server.port}:config-server
-      preferIpAddress: true     #访问路径可以显示IP地址
+      preferIpAddress: true   #访问路径可以显示IP地址
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh   #也可以改为"*"来暴露所有接口
+

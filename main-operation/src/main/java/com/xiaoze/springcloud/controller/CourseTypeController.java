@@ -5,6 +5,8 @@ import com.github.pagehelper.PageInfo;
 import com.xiaoze.springcloud.entity.CourseType;
 import com.xiaoze.springcloud.service.CourseTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,10 +19,14 @@ import java.util.List;
  *
  */
 @RestController
+@RefreshScope
 public class CourseTypeController {
 
     @Autowired
     private CourseTypeService courseTypeService ;
+
+    @Value("${spring.application.name}")
+    private String applicationName;
 
 
     @PostMapping(value="/createCourseType")
@@ -42,6 +48,8 @@ public class CourseTypeController {
         List<CourseType> courseTypeList = courseTypeService.loadAll();
 
         PageInfo<CourseType> page=new PageInfo<>(courseTypeList);
+
+        System.out.println("本项目的spring.application.name是：" + applicationName);
 
         return page;
     }
