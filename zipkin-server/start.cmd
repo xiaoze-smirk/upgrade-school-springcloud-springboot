@@ -1,0 +1,1 @@
+D:\jdk\jdk-8u171\bin\java -jar zipkin.jar

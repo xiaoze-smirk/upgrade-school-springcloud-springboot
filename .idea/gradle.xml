@@ -75,16 +75,6 @@
           </set>
         </option>
       </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/zipkin-server" />
-        <option name="gradleHome" value="D:/gradle-4.8.1" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/zipkin-server" />
-          </set>
-        </option>
-      </GradleProjectSettings>
     </option>
   </component>
 </project>

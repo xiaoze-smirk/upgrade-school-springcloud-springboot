@@ -26,6 +26,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:2.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-zipkin:2.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-sleuth:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-openfeign:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-openfeign-core:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.0.3.RELEASE" level="project" />
@@ -39,11 +41,13 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.10.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:5.0.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-sleuth-zipkin:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf-spring5:3.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-sleuth-core:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.13" level="project" />
@@ -115,6 +119,20 @@
     <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.reporter2:zipkin-sender-kafka11:2.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.reporter2:zipkin-sender-amqp-client:2.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-context-log4j2:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-spring-web:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-spring-rabbit:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-kafka-clients:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-httpclient:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-httpasyncclient:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-spring-webmvc:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-servlet:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave-instrumentation-http:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.brave:brave:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.reporter2:zipkin-reporter:2.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.zipkin2:zipkin:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
@@ -135,6 +153,7 @@
     <orderEntry type="library" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.13" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
     <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.56" level="project" />

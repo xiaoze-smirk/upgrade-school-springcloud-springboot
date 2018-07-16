@@ -11,4 +11,4 @@ http://localhost:8098/hystrix
 http://localhost:8095/hystrix.stream
 
 zipkin中心:
-http://localhost:8099/zipkin/
+http://localhost:9411/zipkin/

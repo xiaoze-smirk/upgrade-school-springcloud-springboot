@@ -18,6 +18,14 @@ spring:
     mode: HTML5
   application:
         name: main-school
+  sleuth:
+      web:
+        client:
+          enabled: true
+      sampler:
+        probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
+  zipkin:
+    base-url: http://localhost:9411/ # 指定了 Zipkin 服务器的地址
 
 eureka:
   client: #客户端注册进eureka服务列表内
