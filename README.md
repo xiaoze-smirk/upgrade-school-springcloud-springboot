@@ -67,7 +67,11 @@ dependencyManagement {
 
 4.打开浏览器，输入网址[http://localhost:8095](http://localhost:8095)即可浏览（账号：000101  密码：123456）。
 
-## 四、总结
+**注意：** 若是该项目对初学者有困难的话，请先学习school-springcloud-springboot的简化版项目，地址如下：
+* 码云：[https://gitee.com/smirk/easy-springcloud](https://gitee.com/smirk/easy-springcloud)
+* github：[https://github.com/xiaoze-smirk/school-springcloud-springboot](https://github.com/xiaoze-smirk/school-springcloud-springboot)
+
+## 五、总结
 您要是喜欢，请拿去。您的受益，是我最大的动力。
 
 ------
