@@ -1,12 +1,13 @@
-﻿# 基于Springcloud的school项目
+﻿# 你好，Springcloud，初次见面，请多多指教
 
-Springcloud是一系列框架的有序集合。它利用Springboot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Springboot的开发风格做到一键启动和部署。所以Springcloud几乎是现在微服务开源界最好的产品了。school-springcloud-springboot是一个基于Springcloud的课程管理系统，服务通过Http2之间协调调用，使得系统解耦。由于Springcloud的出现，现成的系统都可以拆分成更小的粒度，变得更加灵活，同时Springboot能极大的降低Springcloud的配置，能使你能够快速得开发项目。
+school-springcloud-springboot是一个基于Springcloud的课程管理系统，它是什么系统其实不是很重要，关键是它利用Springboot的开发便利性巧妙地简化了分布式系统基础设施的开发，加入了Springcloud系列框架特有服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等功能，可以让你真正的感受到**微服务**的魅力。所以Springcloud几乎是现在微服务开源界最好的产品了。与Dubbo比较起来，Springcloud的使用会让你更加的爱不释手。
 
 ## 一、运行工具、技术与环境
 
-* 运行环境：JDK 8，Maven 3.3+
-* 技术栈：SpringBoot 2.0+、Springcloud、Druid、Thymeleaf、Mybatis
-* 工具：IntelliJ IDEA、谷歌浏览器、Mysql
+* 运行环境：JDK 8，gradle 4.0+
+* 技术栈：SpringBoot 2.0+、Druid、Thymeleaf、Mybatis
+* **微服务Springcloud技术栈：Spring Cloud Config、Spring Cloud Bus、Eureka、Hystrix、Zuul、Spring Cloud Gateway、Spring Cloud Sleuth、Ribbon、Feign、zipkin、hystrix-dashboard**
+* 工具：IntelliJ IDEA、谷歌浏览器、Mysql、RabbitMq
 
 ## 二、Springboot快速集成Springcloud关键的依赖
 ```gradle
@@ -21,20 +22,55 @@ dependencyManagement {
 }
 
 ```
+## 三、各个module介绍
+1、eureka-server：基于Eureka的注册中心，提供服务发现与注册。
 
-## 三、使用步骤
+2、zuul-server：基于zuul微服务网关服务器，提供动态路由与负载分配等等。
+
+3、gateway-server：基于spring自家的Spring Cloud Gateway微服务网关，它是底层是webflux，也可以提供动态路由与负载分配等等。
+4、config-server：配置中心服务端。
+
+5、hystrix-dashboard：基于Hystrix的仪表盘组件的module，可以通过网页实时浏览Hystrix的各项指标信息。
+
+6、main-operation：提供CourseType的服务的项目，里面包括配置中心、feign等技术。
+
+7、user-operation：提供User的服务的项目，包括Spring Cloud Sleuth、feign等技术。
+
+8、zipkin-server：Zipkin分布式跟踪系统。
+
+9、main-school：主操作系统。
+
+## 四、使用步骤
 1.将项目导入IntelliJ IDEA，gradle加载jar包。
 
-2.将sql文件夹里面的脚步导入到mysql中，使得数据库里面有数据。
+2.将doc文件夹里面的sql脚本导入到mysql中，使得数据库里面有数据。
 
-3.项目启动顺序：eureka-server → gateway-server → config-server → user-operation → main-operation → main-school
+3、修改main-operation和user-operation数据库配置。
+
+3.项目启动顺序（这样启动比较合适，当然熟悉之后自行更改启动顺序，**还有，还有：计算机内存至少8g**）：
+
+（1）eureka-server
+
+（2）gateway-server 或者 zuul-server二选一。**注意：二选一**
+
+（3）config-server
+
+（4）main-operation
+
+（5）user-operation
+
+（6）main-school
+
+（7）hystrix-dashboard
+
+（8）zipkin-server
 
 4.打开浏览器，输入网址[http://localhost:8095](http://localhost:8095)即可浏览（账号：000101  密码：123456）。
 
 ## 四、总结
-这个Springcloud项目我会有空的时候就升级，加油！Give Me Five！
+您要是喜欢，请拿去。您的受益，是我最大的动力。
 
 ------
 
 smirk小泽   
-2018 年 07月04日    
+2018 年 07月17日    
