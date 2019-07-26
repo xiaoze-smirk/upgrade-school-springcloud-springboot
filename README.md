@@ -12,12 +12,12 @@ school-springcloud-springboot是一个基于Springcloud的课程管理系统，�
 ## 二、Springboot快速集成Springcloud关键的依赖
 ```gradle
 dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.3.RELEASE")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.6.RELEASE")
 }
 
 dependencyManagement {
     imports {
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:Finchley.RELEASE"
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:Greenwich.SR2"
     }
 }
 
