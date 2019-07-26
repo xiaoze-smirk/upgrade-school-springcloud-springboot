@@ -1,11 +1,11 @@
 package com.xiaoze.springcloud.service.impl;
 
+import com.xiaoze.springcloud.dao.CourseTypeDao;
 import com.xiaoze.springcloud.entity.CourseType;
-import com.xiaoze.springcloud.mapper.CourseTypeMapper;
+import com.xiaoze.springcloud.entity.Page;
 import com.xiaoze.springcloud.service.CourseTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -17,45 +17,46 @@ import java.util.List;
  *
  */
 @Service
-@Transactional(rollbackFor = Exception.class)
 public class CourseTypeServiceImpl implements CourseTypeService {
 
     @Autowired
-    private CourseTypeMapper courseTypeMapper;
+    private CourseTypeDao courseTypeDao;
+
 
     @Override
     public void addCourseType(CourseType courseType) {
 
-        courseTypeMapper.insert(courseType);
+        String str = courseTypeDao.addCourseType(courseType);
+        System.out.println("增加：" + str);
 
     }
 
     @Override
     public void removeCourseType(Integer typeId) {
 
-        courseTypeMapper.deleteByPrimaryKey(typeId);
-
+        String str = courseTypeDao.removeCourseType(typeId);
+        System.out.println("删除：" + str);
     }
 
     @Override
     public void updateCourseType(CourseType courseType) {
 
-        courseTypeMapper.updateByPrimaryKey(courseType);
+        String str = courseTypeDao.updateCourseType(courseType);
+        System.out.println("更新：" + str);
 
     }
 
     @Override
     public CourseType getCourseTypeById(Integer typeId) {
 
-        return courseTypeMapper.selectByPrimaryKey(typeId);
+        return courseTypeDao.getCourseTypeById(typeId);
 
     }
 
     @Override
-    public List<CourseType> loadAll() {
-
-        return courseTypeMapper.selectAll();
-
+    public Page<CourseType> loadByPageNo(Integer pageNo) {
+        return courseTypeDao.loadByPageNo(pageNo);
     }
+
 
 }

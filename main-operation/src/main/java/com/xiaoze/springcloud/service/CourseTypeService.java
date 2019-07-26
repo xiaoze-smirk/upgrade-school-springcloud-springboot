@@ -1,8 +1,7 @@
 package com.xiaoze.springcloud.service;
 
 import com.xiaoze.springcloud.entity.CourseType;
-
-import java.util.List;
+import com.xiaoze.springcloud.entity.Page;
 
 /**
  * CourseTypeService
@@ -47,11 +46,12 @@ public interface CourseTypeService {
     CourseType getCourseTypeById(Integer typeId);
 
     /**
-     *  获取所有课程类型记录
+     *  获取课程类型记录
      *
+     * @param pageNo
      * @return List
      *
      */
-    List<CourseType> loadAll();
+    Page<CourseType> loadByPageNo(Integer pageNo);
 
 }

@@ -1,0 +1,15 @@
+server:                  #配置server
+  tomcat:       #springboot乱码解决
+    uri-encoding: UTF-8
+  port: 8093
+
+spring:
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+
+
+

@@ -4,9 +4,6 @@ server:                  #配置server
   port: 8091
 
 spring:
-  devtools:      #热部署
-    restart:
-      enabled: true
   http:       #springboot乱码解决
     encoding:
       force: true

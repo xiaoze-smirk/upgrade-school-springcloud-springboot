@@ -1,15 +1,11 @@
 package com.xiaoze.springcloud.controller;
 
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import com.xiaoze.springcloud.entity.CourseType;
 import com.xiaoze.springcloud.service.CourseTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
+import java.util.Map;
 
 /**
  * CourseTypeController
@@ -18,63 +14,73 @@ import java.util.List;
  * @date 2018/6/3
  *
  */
-@RestController
-@RefreshScope
+@Controller
+@RequestMapping("/courseType")
 public class CourseTypeController {
 
     @Autowired
     private CourseTypeService courseTypeService ;
 
-    @Value("${spring.application.name}")
-    private String applicationName;
+    /**
+     * 访问课程类型输入界面
+     */
+    @GetMapping("/toInput")
+    public String input(Map<String, Object> map) {
+        map.put("courseType", new CourseType());
 
-
-    @PostMapping(value="/createCourseType")
-    public String createCourseType(@RequestBody CourseType coueseType) {
-
-        courseTypeService.addCourseType(coueseType);
-
-        return "true";
+        return "courseType/input_course_type";
     }
 
-    @PostMapping("/list/{pageNo}")
-    public PageInfo<CourseType> list(@PathVariable("pageNo") Integer pageNo) {
+    /**
+     * 创建新课程类型
+     */
+    @PostMapping(value="/create")
+    public String create(CourseType courseType) {
 
-        /*
-         * 第一个参数：第几页;
-         * 第二个参数：每页获取的条数.
-         */
-        PageHelper.startPage(pageNo, 3);
-        List<CourseType> courseTypeList = courseTypeService.loadAll();
+        courseTypeService.addCourseType(courseType);
 
-        PageInfo<CourseType> page=new PageInfo<>(courseTypeList);
+        return "redirect:/courseType/list";
 
-        System.out.println("本项目的spring.application.name是：" + applicationName);
-
-        return page;
     }
 
-    @DeleteMapping(value="/removeCourseType/{typeId}")
-    public String removeCourseType(@PathVariable("typeId") Integer typeId) {
+    @GetMapping("/list")
+    public String list(Map<String, Object> map, @RequestParam(value="pageNo", required=false, defaultValue="1") String pageNoStr) {
+
+        int pageNo = 1;
+
+        //对 pageNo 的校验
+        pageNo = Integer.parseInt(pageNoStr);
+        if(pageNo < 1){
+            pageNo = 1;
+        }
+
+        map.put("page", courseTypeService.loadByPageNo(pageNo));
+
+        return "courseType/list_course_type";
+    }
+
+    @DeleteMapping(value="/remove/{typeId}")
+    public String remove(@PathVariable("typeId") Integer typeId) {
 
         courseTypeService.removeCourseType(typeId);
 
-        return "true";
+        return "redirect:/courseType/list";
     }
 
-    @GetMapping(value="/getOneCourseType/{typeId}")
-    public CourseType getOneCourseType(@PathVariable("typeId") Integer typeId) {
+    @GetMapping(value="/preUpdate/{typeId}")
+    public String preUpdate(@PathVariable("typeId") Integer typeId, Map<String, Object> map) {
+        System.out.println(courseTypeService.getCourseTypeById(typeId));
+        map.put("courseType", courseTypeService.getCourseTypeById(typeId));
 
-        return courseTypeService.getCourseTypeById(typeId);
+        return "courseType/update_course_type";
     }
 
-    @PutMapping(value="/updateCourseType")
-    public String updateCourseType(@RequestBody CourseType coueseType) {
+    @PutMapping(value="/update")
+    public String update(CourseType courseType) {
 
-        courseTypeService.updateCourseType(coueseType);
+        courseTypeService.updateCourseType(courseType);
 
-        return "true";
+        return "redirect:/courseType/list";
     }
-
 
 }

@@ -23,9 +23,6 @@ spring:
       pool-prepared-statements: true           # 打开PSCache，并且指定每个连接上PSCache的大小
       max-pool-prepared-statement-per-connection-size: 20
       filters: stat         # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
-  devtools:      #热部署
-    restart:
-      enabled: true
   http:       #springboot乱码解决
     encoding:
       force: true
@@ -50,4 +47,6 @@ eureka:
     instanceId: ${spring.cloud.client.ip-address}:${server.port}:user-operation
     preferIpAddress: true     #访问路径可以显示IP地址
 
-
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
