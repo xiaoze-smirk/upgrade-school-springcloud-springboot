@@ -1,11 +1,10 @@
 version = '0.0.1-SNAPSHOT'
 
 ext {
-    set('pagehelperVersion', "1.2.12")
+    set('pagehelperVersion', "1.2.13")
     set('mapperStartVersion', "2.1.5")
-    set('druidVersion', "1.1.18")
-    set('mysqlVersion', "8.0.16")
-    set('lombokVersion', "1.18.8")
+    set('druidVersion', "1.1.21")
+    set('mysqlVersion', "8.0.18")
 }
 
 dependencies {
@@ -19,6 +18,5 @@ dependencies {
     implementation "tk.mybatis:mapper-spring-boot-starter:${mapperStartVersion}"
     implementation "com.alibaba:druid-spring-boot-starter:${druidVersion}"
     implementation "mysql:mysql-connector-java:${mysqlVersion}"
-    compileOnly "org.projectlombok:lombok:${lombokVersion}"
     
 }

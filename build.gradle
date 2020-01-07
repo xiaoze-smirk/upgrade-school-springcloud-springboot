@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        set('springBootVersion', "2.1.6.RELEASE")
+        set('springBootVersion', "2.2.2.RELEASE")
     }
     repositories {
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
@@ -30,7 +30,7 @@ allprojects {
 subprojects {
 
     ext {
-        set('springCloudVersion', "Greenwich.SR2")
+        set('springCloudVersion', "Hoxton.SR1")
         set('commonsLang3Version', "3.9")
         set('commonsCollections4', "4.4")
     }
@@ -40,6 +40,12 @@ subprojects {
         implementation "org.apache.commons:commons-lang3:${commonsLang3Version}"
         implementation "org.apache.commons:commons-collections4:${commonsCollections4}"
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+        annotationProcessor 'org.projectlombok:lombok:1.18.10'
+        compileOnly 'org.projectlombok:lombok:1.18.10'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.10'
+        testCompileOnly 'org.projectlombok:lombok:1.18.10'
+
     }
 
     dependencyManagement {

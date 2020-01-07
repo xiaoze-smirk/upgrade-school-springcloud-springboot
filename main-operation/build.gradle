@@ -1,9 +1,5 @@
 version = '0.0.1-SNAPSHOT'
 
-ext {
-    set('lombokVersion', "1.18.8")
-}
-
 dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
@@ -12,6 +8,5 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-zipkin'
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
-    compileOnly "org.projectlombok:lombok:${lombokVersion}"
     
 }
