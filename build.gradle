@@ -37,8 +37,10 @@ subprojects {
 
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter-web'
+        implementation 'org.springframework.boot:spring-boot-starter-log4j2'
         implementation "org.apache.commons:commons-lang3:${commonsLang3Version}"
         implementation "org.apache.commons:commons-collections4:${commonsCollections4}"
+
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
         annotationProcessor 'org.projectlombok:lombok:1.18.10'
@@ -52,5 +54,11 @@ subprojects {
         imports {
             mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
         }
+    }
+
+    configurations {
+        providedRuntime
+        // remove default logger
+        all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
     }
 }

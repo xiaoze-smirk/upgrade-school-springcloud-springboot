@@ -50,6 +50,9 @@ eureka:
     instanceId: ${spring.cloud.client.ip-address}:${server.port}:gateway-server
     preferIpAddress: true     #访问路径可以显示IP地址
 
+logging:
+  config: classpath:log/log4j2.xml
+
 ribbon:
   ReadTimeout: 5000
   ConnectTimeout: 50000

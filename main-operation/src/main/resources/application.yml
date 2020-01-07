@@ -42,6 +42,9 @@ feign:
   hystrix:
     enabled: true
 
+logging:
+  config: classpath:log/log4j2.xml
+
 ribbon:
   ReadTimeout: 5000
   ConnectTimeout: 50000

@@ -51,6 +51,5 @@ eureka:
     instanceId: ${spring.cloud.client.ip-address}:${server.port}:user-operation
     preferIpAddress: true     #访问路径可以显示IP地址
 
-mybatis:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  config: classpath:log/log4j2.xml

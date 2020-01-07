@@ -34,3 +34,6 @@ management:
       exposure:
         include: bus-refresh   #也可以改为"*"来暴露所有接口
 
+logging:
+  config: classpath:log/log4j2.xml
+
