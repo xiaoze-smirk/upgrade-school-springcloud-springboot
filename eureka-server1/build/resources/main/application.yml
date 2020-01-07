@@ -1,7 +1,7 @@
 server:                  #配置server
   tomcat:       #springboot乱码解决
     uri-encoding: UTF-8
-  port: 8091
+  port: 8181
 
 spring:
   mvc:
@@ -16,12 +16,14 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    #单机 hostname: localhost
+    hostname: eureka8181.com
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #单机 defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka8182.com:8182/eureka/,http://eureka8183.com:8183/eureka/
 
 logging:
   config: classpath:log/log4j2.xml

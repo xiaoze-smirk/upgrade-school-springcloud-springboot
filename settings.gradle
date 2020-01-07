@@ -5,7 +5,9 @@ pluginManagement {
 }
 rootProject.name = 'springcloud-parent'
 include(
-        'eureka-server',
+        'eureka-server1',
+        'eureka-server2',
+        'eureka-server3',
         'gateway-server',
         'hystrix-dashboard',
         'user-operation',

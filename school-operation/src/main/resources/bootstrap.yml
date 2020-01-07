@@ -17,7 +17,7 @@ spring:
 eureka:
   client: #客户端注册进eureka服务列表内
     serviceUrl:
-       defaultZone: http://localhost:8091/eureka/
+       defaultZone: http://eureka8181.com:8181/eureka/,http://eureka8182.com:8182/eureka/,http://eureka8183.com:8183/eureka/
   instance:
     instanceId: ${spring.cloud.client.ip-address}:${server.port}:main-operation
     preferIpAddress: true     #访问路径可以显示IP地址
