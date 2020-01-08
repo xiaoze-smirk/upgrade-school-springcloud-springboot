@@ -1,5 +1,7 @@
 Eureka界面网址：
-http://localhost:8091/
+http://eureka8181.com:8181/
+http://eureka8182.com:8182/
+http://eureka8183.com:8183/
 
 项目主页面网址：
 http://localhost:8095/

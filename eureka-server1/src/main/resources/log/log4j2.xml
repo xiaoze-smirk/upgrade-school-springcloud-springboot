@@ -2,10 +2,10 @@
 <Configuration>
 
     <Properties>
-        <Property name="TEST_LOG">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\test-log\eureka-server</Property>
+        <Property name="TEST_LOG">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\test-log\eureka-server1</Property>
         <Property name="TEST_LOG_FILE_NAME">test</Property>
 
-        <Property name="LOG_HOME">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\logs\eureka-server</Property>
+        <Property name="LOG_HOME">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\logs\eureka-server1</Property>
         <Property name="INFO_LOG_FILE_NAME">info</Property>
     </Properties>
 

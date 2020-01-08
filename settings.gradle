@@ -9,9 +9,11 @@ include(
         'eureka-server2',
         'eureka-server3',
         'gateway-server',
-        'hystrix-dashboard',
-        'user-operation',
         'config-server',
-        'school-operation',
-        'main-operation'
+        'user-operation',
+        'school-operation1',
+        'school-operation2',
+        'school-operation3',
+        'main-operation',
+        'hystrix-dashboard'
 )

@@ -2,10 +2,10 @@
 <Configuration>
 
     <Properties>
-        <Property name="TEST_LOG">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\test-log\eureka-server</Property>
+        <Property name="TEST_LOG">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\test-log\eureka-server2</Property>
         <Property name="TEST_LOG_FILE_NAME">test</Property>
 
-        <Property name="LOG_HOME">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\logs\eureka-server</Property>
+        <Property name="LOG_HOME">E:\person\idea\school-springcloud-springboot\school-springcloud-springboot-github\logs\eureka-server2</Property>
         <Property name="INFO_LOG_FILE_NAME">info</Property>
     </Properties>
 
@@ -49,6 +49,9 @@
     <!--然后定义logger，只有定义了logger并引入的appender，appender才会生效-->
     <loggers>
 
+        <logger name="com.netflix" level="info"/>
+        <logger name="org.eclipse" level="info"/>
+        <logger name="org.apache" level="info"/>
         <logger name="org.mybatis.spring" level="info"/>
         <logger name="com.alibaba.druid" level="info"/>
         <logger name="org.springframework" level="info"/>

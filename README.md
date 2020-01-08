@@ -4,7 +4,7 @@ school-springcloud-springboot是一个基于Springcloud的课程管理系统，�
 
 ## 一、运行工具、技术与环境
 
-* 运行环境：JDK 8，gradle 4.0+
+* 运行环境：JDK 8，gradle 6.0+
 * 技术栈：SpringBoot 2.0+、Druid、Thymeleaf、Mybatis
 * **微服务Springcloud技术栈：Spring Cloud Config、Spring Cloud Bus、Eureka、Hystrix、Zuul、Spring Cloud Gateway、Spring Cloud Sleuth、Ribbon、Feign、zipkin、hystrix-dashboard**
 * 工具：IntelliJ IDEA、谷歌浏览器、Mysql、RabbitMq
@@ -12,12 +12,12 @@ school-springcloud-springboot是一个基于Springcloud的课程管理系统，�
 ## 二、Springboot快速集成Springcloud关键的依赖
 ```gradle
 dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.6.RELEASE")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.2.2.RELEASE")
 }
 
 dependencyManagement {
     imports {
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:Greenwich.SR2"
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:Hoxton.SR1"
     }
 }
 
@@ -47,23 +47,34 @@ dependencyManagement {
 
 3、修改main-operation和user-operation数据库配置。
 
-3.项目启动顺序（这样启动比较合适，当然熟悉之后自行更改启动顺序，**还有，还有：计算机内存至少8g**）：
+4、向window的hosts添加
 
-（1）eureka-server
+   127.0.0.1       eureka8181.com
+   
+   127.0.0.1       eureka8182.com
+   
+   127.0.0.1       eureka8183.com
+   
+5、开启rabbitMQ和mysql
 
-（2）gateway-server 或者 zuul-server二选一。**注意：二选一**
+6.项目启动顺序（这样启动比较合适，当然熟悉之后自行更改启动顺序，**还有，还有：计算机内存至少12g**）：
 
-（3）config-server
+（1）zipkin-server
 
-（4）main-operation
+（2）eureka-server1、eureka-server2、eureka-server3
+
+（3）gateway-server
+
+（4）config-server
 
 （5）user-operation
 
-（6）main-school
+（6）school-operation1、school-operation2、school-operation3
 
-（7）hystrix-dashboard
+（7）main-operation
 
-（8）zipkin-server
+（8）hystrix-dashboard
+
 
 4.打开浏览器，输入网址[http://localhost:8095](http://localhost:8095)即可浏览（账号：000101  密码：123456）。
 
